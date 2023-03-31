@@ -1,11 +1,11 @@
 import React from 'react';
-import RegisterWrapper from './components/RegisterWrapper';
+import RegisterPage from './pages/Register';
 
 function App() {
 
   return (
     <>
-    <RegisterWrapper/>
+      <RegisterPage/>
     </>
   );
 }
