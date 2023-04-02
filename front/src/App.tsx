@@ -1,11 +1,12 @@
 import React from 'react';
-import RegisterPage from './pages/Register';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 
 function App() {
 
   return (
     <>
-      <RegisterPage/>
+      <LoginPage/>
     </>
   );
 }
