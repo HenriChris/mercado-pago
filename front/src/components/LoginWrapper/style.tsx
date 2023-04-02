@@ -1,9 +1,5 @@
 import styled, { css } from 'styled-components';
-import InputMask from 'react-input-mask';
-import NomeIcon from '../../assets/nome.png'
 import EmailIcon from '../../assets/email.png'
-import CpfIcon from '../../assets/cpf.png'
-import TelefoneIcon from '../../assets/telefone.png'
 import SenhaIcon from '../../assets/senha.png'
 
 type Icon = {
@@ -55,24 +51,8 @@ export const InputText = styled.input<Icon>`
   ${Input}
 `;
 
-export const InputTextMasked = styled(InputMask)<Icon>`
-  ${Input}
-`;
-
-export const InputTextNome = styled(InputText)`
-  background-image: url(${NomeIcon});
-`
-
 export const InputTextEmail = styled(InputText)`
   background-image: url(${EmailIcon});
-`
-
-export const InputTextCpf = styled(InputTextMasked)`
-  background-image: url(${CpfIcon});
-`
-
-export const InputTextTelefone = styled(InputTextMasked)`
-  background-image: url(${TelefoneIcon});
 `
 
 export const InputTextSenha = styled(InputText)`
